@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    public void onClick(View view){
-        switch (view.getId()){
+    public void onClick(View v){
+        switch (v.getId()){
             case R.id.A1 : puntuacionViewModel.puntosA += 1; break;
             case R.id.A2 : puntuacionViewModel.puntosA += 2; break;
             case R.id.A3 : puntuacionViewModel.puntosA += 3; break;

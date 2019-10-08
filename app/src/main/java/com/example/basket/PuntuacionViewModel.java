@@ -5,7 +5,7 @@ import android.app.Application;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 
-class PuntuacionViewModel extends AndroidViewModel {
+public class PuntuacionViewModel extends AndroidViewModel {
 
 
     int puntosA, puntosB;
